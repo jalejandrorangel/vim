@@ -3,6 +3,7 @@ map<c-e> :! ./exe < entrada.in >salida.out <CR>
 map<c-x> :split entrada.in <CR> :vsplit salida.out <CR>
 " ./%< es el ejecutable
 syntax on
+
 set number
 set mouse =a
 set tabstop =3
